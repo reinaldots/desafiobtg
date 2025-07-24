@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "API\\DesafioBTG.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "MS\\DesafioBTG.MS.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
