@@ -19,7 +19,7 @@ Validar o funcionamento completo da solução, desde o consumo da fila MQ pelo m
 
 Uma coleção Postman com todos os endpoints da API para facilitar a validação da solução.
 
-- [Download da coleção Postman](https://github.com/reinaldots/desafiobtg/tree/main/docs/Desafio%20BTG%20APIs.postman_collection.json)
+- [Download da coleção Postman](https://github.com/reinaldots/desafiobtg/blob/main/docs/DesafioBTG_APIs.postman_collection.json)
 
 ### Como utilizar
 
