@@ -26,9 +26,10 @@ public class PedidosController : ControllerBase
     [HttpPost("pedidos")]
     public IActionResult CriarPedido([FromBody] Pedido pedido)
     {
-        if (pedido == null)
+        if (pedido == null || pedido.CodigoCliente == 0 
+            || pedido.CodigoPedido == 0|| pedido.Itens == null)
             return BadRequest("Pedido inválido.");
-
+        
         try
         {
             var rabbitSettings = _configuration.GetSection("RabbitMQ").Get<RabbitMQSettings>();

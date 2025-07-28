@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\GIT\\desafiobtg\\solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF31EF28-C8B4-D00D-AF2C-05B01BBA5985}|API\\DesafioBTG.API.csproj|d:\\git\\desafiobtg\\solution\\api\\services\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF31EF28-C8B4-D00D-AF2C-05B01BBA5985}|API\\DesafioBTG.API.csproj|solutionrelative:api\\services\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FF31EF28-C8B4-D00D-AF2C-05B01BBA5985}|API\\DesafioBTG.API.csproj|d:\\git\\desafiobtg\\solution\\api\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF31EF28-C8B4-D00D-AF2C-05B01BBA5985}|API\\DesafioBTG.API.csproj|solutionrelative:api\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF31EF28-C8B4-D00D-AF2C-05B01BBA5985}|API\\DesafioBTG.API.csproj|d:\\git\\desafiobtg\\solution\\api\\messaging\\messaging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF31EF28-C8B4-D00D-AF2C-05B01BBA5985}|API\\DesafioBTG.API.csproj|solutionrelative:api\\messaging\\messaging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{880652F7-8323-4925-BF03-017D139B6593}|MS\\DesafioBTG.MS.csproj|d:\\git\\desafiobtg\\solution\\ms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{880652F7-8323-4925-BF03-017D139B6593}|MS\\DesafioBTG.MS.csproj|solutionrelative:ms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{880652F7-8323-4925-BF03-017D139B6593}|MS\\DesafioBTG.MS.csproj|d:\\git\\desafiobtg\\solution\\ms\\desafiobtg.ms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{880652F7-8323-4925-BF03-017D139B6593}|MS\\DesafioBTG.MS.csproj|solutionrelative:ms\\desafiobtg.ms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,57 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PedidosController.cs",
               "DocumentMoniker": "D:\\GIT\\desafiobtg\\solution\\API\\Controllers\\PedidosController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\PedidosController.cs",
               "ToolTip": "D:\\GIT\\desafiobtg\\solution\\API\\Controllers\\PedidosController.cs",
               "RelativeToolTip": "API\\Controllers\\PedidosController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA6wD4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAtwB4AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T20:05:04.795Z",
+              "WhenOpened": "2025-07-26T18:20:24.114Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PedidoService.cs",
-              "DocumentMoniker": "D:\\GIT\\desafiobtg\\solution\\API\\Services\\PedidoService.cs",
-              "RelativeDocumentMoniker": "API\\Services\\PedidoService.cs",
-              "ToolTip": "D:\\GIT\\desafiobtg\\solution\\API\\Services\\PedidoService.cs",
-              "RelativeToolTip": "API\\Services\\PedidoService.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAawCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T20:04:29.804Z",
+              "DocumentIndex": 1,
+              "Title": "DesafioBTG.MS",
+              "DocumentMoniker": "D:\\GIT\\desafiobtg\\solution\\MS\\DesafioBTG.MS.csproj",
+              "RelativeDocumentMoniker": "MS\\DesafioBTG.MS.csproj",
+              "ToolTip": "D:\\GIT\\desafiobtg\\solution\\MS\\DesafioBTG.MS.csproj",
+              "RelativeToolTip": "MS\\DesafioBTG.MS.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-26T16:58:45.712Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Messaging.cs",
-              "DocumentMoniker": "D:\\GIT\\desafiobtg\\solution\\API\\Messaging\\Messaging.cs",
-              "RelativeDocumentMoniker": "API\\Messaging\\Messaging.cs",
-              "ToolTip": "D:\\GIT\\desafiobtg\\solution\\API\\Messaging\\Messaging.cs",
-              "RelativeToolTip": "API\\Messaging\\Messaging.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T20:04:22.323Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GIT\\desafiobtg\\solution\\MS\\Program.cs",
-              "RelativeDocumentMoniker": "MS\\Program.cs",
-              "ToolTip": "D:\\GIT\\desafiobtg\\solution\\MS\\Program.cs",
-              "RelativeToolTip": "MS\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAYwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T14:40:18.541Z"
             }
           ]
         }

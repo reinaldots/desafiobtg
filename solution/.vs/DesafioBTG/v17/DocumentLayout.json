@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\GIT\\desafiobtg\\solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF31EF28-C8B4-D00D-AF2C-05B01BBA5985}|API\\DesafioBTG.API.csproj|d:\\git\\desafiobtg\\solution\\api\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF31EF28-C8B4-D00D-AF2C-05B01BBA5985}|API\\DesafioBTG.API.csproj|solutionrelative:api\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{880652F7-8323-4925-BF03-017D139B6593}|MS\\DesafioBTG.MS.csproj|d:\\git\\desafiobtg\\solution\\ms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880652F7-8323-4925-BF03-017D139B6593}|MS\\DesafioBTG.MS.csproj|solutionrelative:ms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PedidosController.cs",
-              "DocumentMoniker": "D:\\GIT\\desafiobtg\\solution\\API\\Controllers\\PedidosController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\PedidosController.cs",
-              "ToolTip": "D:\\GIT\\desafiobtg\\solution\\API\\Controllers\\PedidosController.cs",
-              "RelativeToolTip": "API\\Controllers\\PedidosController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAqwBYAAAATAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GIT\\desafiobtg\\solution\\MS\\Program.cs",
+              "RelativeDocumentMoniker": "MS\\Program.cs",
+              "ToolTip": "D:\\GIT\\desafiobtg\\solution\\MS\\Program.cs",
+              "RelativeToolTip": "MS\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T20:05:04.795Z",
+              "WhenOpened": "2025-07-28T14:03:23.185Z",
               "EditorCaption": ""
             }
           ]

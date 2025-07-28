@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+
+  mongodb:
+    image: mongo:7.0
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"     # Comunicação com apps
+      - "15672:15672"   # Interface web de administração
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+
+  api:
+    image: reinaldots/desafiobtg-api:latest
+    container_name: desafiobtg_api
+    ports:
+      - "5000:80"
+    depends_on:
+      - mongodb
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+    restart: unless-stopped
+
+  ms:
+    image: reinaldots/desafiobtg-ms:latest
+    container_name: desafiobtg_ms
+    depends_on:
+      - rabbitmq
+      - mongodb
+    restart: unless-stopped
+
+volumes:
+  mongodb_data:

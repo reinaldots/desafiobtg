@@ -1,6 +1,6 @@
 # Desafio BTG - Engenheiro de Software
 
-**Status:** Em desenvolvimento
+**Status:** Concluído
 
 ## Descrição do Projeto
 
@@ -12,18 +12,35 @@ O sistema é composto por:
 
 ## Tecnologias Utilizadas
 
-- **Visual Studio 2022 / .NET C# 8.0** — IDE / framework o desenvolvimento da API e do microsserviço.
-- **RabbitMQ** — Fila de mensagens para comunicação assíncrona entre sistemas.
+- **Visual Studio 2022 / .NET C# 8.0** — IDE / framework para o desenvolvimento da API e do microsserviço.
+- **RabbitMQ** — Fila de mensagens para comunicação assíncrona.
 - **MongoDB** — Banco de dados NoSQL para persistência dos pedidos.
 - **Docker** — Containerização dos serviços.
 - **Docker Compose** — Orquestração local dos containers.
-- **Git** — Controle de versão do código-fonte
-- **GitHub** — Hospedagem e colaboração do repositóri
+- **Git** — Controle de versão do código-fonte.
+- **GitHub** — Repositório de código-fonte.
 - **Swagger/OpenAPI** — Documentação dos endpoints da API.
 
 ## Como Executar o Projeto
+Requisitos
+- Docker, Docker Compose, Git, MongoDB Compass, Visual Studio 2022
 
-Preencher no desenvolvimento...
+1. Clone o repositório
+git clone https://github.com/reinaldots/desafiobtg
+2. Acesse a pasta da solution
+cd ~\desafiobtg
+3. Suba todos os containers
+docker-compose up --build
+4. Abra e execute a solução no Visual Studio
+cd ~\desafiobtg\solution\DesafioBTG.sln
+5. A API REST e o MS serão abertos
+MS - Será executado em janela de console
+API REST - https://localhost:7017/swagger
+RabbitMQ - http://localhost:15672 (acesso padrão: guest / guest)
+MongoDB - mongodb://localhost:27017
+
+Parar todos os containers
+docker-compose down
 
 ## Endpoints da API
 

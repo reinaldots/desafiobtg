@@ -1,6 +1,0 @@
-@DesafioBTG_HostAddress = http://localhost:5133
-
-GET {{DesafioBTG_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

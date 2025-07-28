@@ -1,0 +1,148 @@
+{
+	"info": {
+		"_postman_id": "bbbb9867-adcb-4779-bfb4-97007f956038",
+		"name": "Desafio BTG APIs",
+		"description": "Detalhes sobre cada endpoint estão disponíveis na documentação.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1590964"
+	},
+	"item": [
+		{
+			"name": "ping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url_api}}/api",
+					"host": [
+						"{{url_api}}"
+					],
+					"path": [
+						"api"
+					]
+				},
+				"description": "Endpoint para confirmar que a API está ativa e em funcionamento."
+			},
+			"response": []
+		},
+		{
+			"name": "incluir pedido",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"codigoPedido\": 1001,\r\n  \"codigoCliente\": 1,\r\n  \"itens\": [\r\n    {\r\n      \"produto\": \"lápis\",\r\n      \"quantidade\": 100,\r\n      \"preco\": 1.10\r\n    },\r\n    {\r\n      \"produto\": \"caderno\",\r\n      \"quantidade\": 10,\r\n      \"preco\": 1.00\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url_api}}/api/pedidos",
+					"host": [
+						"{{url_api}}"
+					],
+					"path": [
+						"api",
+						"pedidos"
+					]
+				},
+				"description": "Endpoint para incluir um pedido na fila do RabbitMQ e, assim, agiliza a inclusão de pedidos na fila.\n\nExemplo do raw (json):  \n  \n{  \n\"codigoPedido\": 1001,  \n\"codigoCliente\": 1,  \n\"itens\": \\[  \n{  \n\"produto\": \"lápis\",  \n\"quantidade\": 100,  \n\"preco\": 1.10  \n},  \n{  \n\"produto\": \"caderno\",  \n\"quantidade\": 10,  \n\"preco\": 1.00  \n}  \n\\]  \n}"
+			},
+			"response": []
+		},
+		{
+			"name": "listar pedidos por cliente",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url_api}}/api/pedidos/1",
+					"host": [
+						"{{url_api}}"
+					],
+					"path": [
+						"api",
+						"pedidos",
+						"1"
+					]
+				},
+				"description": "Listar os pedidos do cliente ao informar o código do cliente no endpoint."
+			},
+			"response": []
+		},
+		{
+			"name": "obter quantidade de pedidos por cliente",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url_api}}/api/pedidos/1/quantidade",
+					"host": [
+						"{{url_api}}"
+					],
+					"path": [
+						"api",
+						"pedidos",
+						"1",
+						"quantidade"
+					]
+				},
+				"description": "Retornar a quantidade de pedidos por cliente ao informar o código do cliente no endpoint."
+			},
+			"response": []
+		},
+		{
+			"name": "obter valor total por pedido",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url_api}}/api/pedidos/1001/valortotal",
+					"host": [
+						"{{url_api}}"
+					],
+					"path": [
+						"api",
+						"pedidos",
+						"1001",
+						"valortotal"
+					]
+				},
+				"description": "Retornar o valor total por pedido ao informar o código do pedido no endpoint."
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url_api",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
